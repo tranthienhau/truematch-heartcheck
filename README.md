@@ -15,8 +15,9 @@ a bare iOS Simulator with no hardware.
 
 ## Demo
 
-[`demo.mp4`](demo.mp4) - one hands-free pass through the full flow (~33s, captured
-on iPhone 17 Pro).
+One hands-free pass through the full flow (~33s, captured on iPhone 17 Pro):
+
+<p align="center"><img src="demo.gif" alt="HeartCheck demo" width="300" /></p>
 
 | Home | Nearby Discovery (BLE) | HeartCheck Report | HeartCheck Band (BLE) | Profile |
 |---|---|---|---|---|
@@ -65,11 +66,6 @@ npx expo run:ios --device "iPhone 17 Pro"
 
 Expo Go cannot host SDK 56 here, so the app runs as a native debug build (first run
 does `expo prebuild` + CocoaPods + `xcodebuild`).
-
-## Reproduce the demo / screenshots
-
-See [FLOW.md](FLOW.md) - boots the simulator, runs the app, drives the self-running
-demo loop, records, and extracts the stills.
 
 ---
 
