@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "HeartCheck",
+    "slug": "truematch-heartcheck",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0B0B0C",
+    "splash": {
+      "backgroundColor": "#0B0B0C",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSBluetoothAlwaysUsageDescription": "HeartCheck uses Bluetooth to discover nearby members and connect to your HeartCheck band.",
+        "NSBluetoothPeripheralUsageDescription": "HeartCheck uses Bluetooth to be discoverable to nearby members."
+      },
+      "bundleIdentifier": "com.haubin.truematch-heartcheck"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0B0C",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
